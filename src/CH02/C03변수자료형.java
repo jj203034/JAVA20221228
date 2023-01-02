@@ -11,8 +11,11 @@ public class C03변수자료형 {
 		int num2=4; // 4라는 값을 상수pool에 저장하고 새로만들어지는 4byte정수공간 num2에 초기화한다
 		int num3=num1+num2; // num1의값+num2의값을 4byte정수공간 num3에 초기화
 		System.out.println(num3); // num3의 값을 print
+	
+	
+	
 	}
 
-	}
+}
 
 

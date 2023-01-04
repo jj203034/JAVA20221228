@@ -1,4 +1,4 @@
-package CH02;
+package Ch02;
 
 public class C04변수자료형 {
 

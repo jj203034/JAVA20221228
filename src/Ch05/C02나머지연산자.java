@@ -79,7 +79,19 @@ public class C02나머지연산자 {
 //		System.out.println("결과 :" +result1);
 //		String result2 = (sum%5==0)?"5의배수입니다":"5의배수가아닙니다";
 //		System.out.println("결과 : " +result2);
-		
+//		String result3 = (sum%2==0)? ( (sum%5==0)? "짝수이면서 5의배수입니다":"짝수이면서 5의배수가아닙니다")    :"홀수입니다";
+//		if(sum%2==0)
+//		{
+//			//짝수
+//			if(sum%5==0) {
+//				
+//			}
+//		}
+//		else
+//		{
+			//홀수
+//		}
+			
 		//풀이
 //		Scanner sc = new Scanner(System.in);
 //		int a = sc.nextInt();
@@ -94,5 +106,6 @@ public class C02나머지연산자 {
 		
 
 	}
+
 
 }

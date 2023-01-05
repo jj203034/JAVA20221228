@@ -1,5 +1,7 @@
 package Ch05;
 
+import java.util.Scanner;
+
 public class C01연산자 {
 
 	public static void main(String[] args) {
@@ -18,6 +20,7 @@ public class C01연산자 {
 		// 문제
 		//두 정수를 입력받아 두수의 합/곱/차를 출력하는 프로그램을 만듭니다.
 		//scanner사용
+		
 		
 		// 복합대입연산자(선택)
 //		int a = 10;

@@ -35,7 +35,7 @@ public class C02나머지연산자 {
 //			Thread.sleep(500);
 //		}
 		
-		//02. Math.random()사용
+//		02. Math.random()사용
 //		while(true) {
 //			System.out.println((int)(Math.random()*100)%45 +1);
 //			Thread.sleep(500);

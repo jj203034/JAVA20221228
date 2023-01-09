@@ -149,18 +149,18 @@ public class C01While {
 //		}
 //		System.out.printf("1부터 10중 3의배수의 합 : %d " ,sum);
 		//1부터 n까지의 수중 3의 배수의 합만 입력
-		Scanner sc = new Scanner(System.in);
-		int i = 1;
-		int n = sc.nextInt();
-		int sum = 0;
-		while(i<=n)
-		{
-			if(i%3==0) {
-				System.out.println("i값 : " +i);
-			sum = sum+i;}
-			i++;
-		}
-		System.out.printf("1부터 %d중 3의배수의 합 : %d" ,n ,sum);
+//		Scanner sc = new Scanner(System.in);
+//		int i = 1;
+//		int n = sc.nextInt();
+//		int sum = 0;
+//		while(i<=n)
+//		{
+//			if(i%3==0) {
+//				System.out.println("i값 : " +i);
+//			sum =sum+i;}
+//			i++;
+//		}
+//		System.out.printf("1부터 %d중 3의배수의 합 : %d" ,n ,sum);
 	}
 
 }

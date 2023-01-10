@@ -230,40 +230,114 @@ public class C02While {
 		
 		
 		//높이 입력받아서 출력
+		// i(개행)		j(공백)				k(별)
+		// 0			0-(h-2)-2			0-0
+		// 1			0-(h-2)-1			0-2
+		// 2			0-(h-2)-0			0-4
+		// 3			x					0-6
+		//-------------------------------
+		//i=0			j=0			k=0
+		//i++			j++			k++
+		//i<4			j<=(h-2)-i		k<=2*1
 		
-		Scanner sc = new Scanner(System.in);
-		int h = sc.nextInt();
-		int i = 0;
-		int j = 0;
-		int k = 0;
-		while(i<h)
-		{
-			//공백
-			j=0;
-			while(j<= (h-2) -i)
-			{
-				System.out.print(" ");
-				j++;
-			}
-			//별
-			k=0;
-			while(k<= 2*i)
-			{
-				System.out.print("*");
-				k++;
-			}
-			System.out.println();
-			i++;
-		}
+//		Scanner sc = new Scanner(System.in);
+//		int h = sc.nextInt();
+//		int i = 0;
+//		int j = 0;
+//		int k = 0;
+//		while(i<h)
+//		{
+//			//공백
+//			j=0;
+//			while(j<= (h-2) -i)
+//			{
+//				System.out.print(" ");
+//				j++;
+//			}
+//			//별
+//			k=0;
+//			while(k<= 2*i)
+//			{
+//				System.out.print("*");
+//				k++;
+//			}
+//			System.out.println();
+//			i++;
+//		}
 		
 		//5
 	//	 *******
 	//	  *****
 	//	   ***
 	//	    *
+		// i(개행)		j(공백)		k(별)
+		// 0			x			0-6
+		// 1			0-0			0-4
+		// 2			0-1			0-2
+		// 3			0-2			0-0
+		//-------------------------------
+		//i=0			j=0			k=0
+		//i++			j++			k++
+		//i<4			j<=i-1		k<=3*2-(2*i)
+//		int i = 0;
+//		int j = 0;
+//		int k = 0;
+//		while(i<4)
+//		{
+//			//공백
+//			j=0;
+//			while(j<=i-1)
+//			{
+//				System.out.print(" ");
+//				j++;
+//			}
+//			//별
+//			k=0;
+//			while(k<=3*2-(2*i))
+//			{
+//				System.out.print("*");
+//				k++;
+//			}
+//			System.out.println();
+//			i++;
+//		}
+	
+		//높이 입력받아서 작성
+		// i(개행)		j(공백)		k(별)
+		// 0			x			0-6
+		// 1			0-0			0-4
+		// 2			0-1			0-2
+		// 3			0-2			0-0
+		// h-1			
+		//-------------------------------
+		//i=0			j=0			k=0
+		//i++			j++			k++
+		//i<h			j<=i-1		k<=(h-1)*2-(2*i)
 		
-		
-		
+//		Scanner sc= new Scanner(System.in);
+//		int h = sc.nextInt();
+//		int i = 0;
+//		int j = 0;
+//		int k = 0;
+//		while(i<h)
+//		{
+//			//공백
+//			j=0;
+//			while(j<=i-1)
+//			{
+//				System.out.print(" ");
+//				j++;
+//			}
+//			//별
+//			k=0;
+//			while(k<=(h-1)*2-(2*i))
+//			{
+//				System.out.print("*");
+//				k++;
+//			}
+//			System.out.println();
+//			i++;
+//		}
 		
 	}
 	

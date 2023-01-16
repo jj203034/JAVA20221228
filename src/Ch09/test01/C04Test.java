@@ -1,4 +1,4 @@
-package Ch09;
+package Ch09.test01;
 
 public class C04Test {
 	//getter, setter 생성

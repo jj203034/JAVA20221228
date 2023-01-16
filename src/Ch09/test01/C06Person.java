@@ -1,4 +1,4 @@
-package Ch09;
+package Ch09.test01;
 
 class Person {//사람 클래스
 	void breath() {

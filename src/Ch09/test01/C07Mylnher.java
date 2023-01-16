@@ -1,4 +1,4 @@
-package Ch09;
+package Ch09.test01;
 
 class Parent{
 	int x = 10;

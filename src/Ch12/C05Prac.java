@@ -2,9 +2,9 @@ package Ch12;
 
 class ShopService {
 	// 싱글톤 구현
+	String shopName;
+	String manager;
 	private static ShopService instance;
-	public String shopName;
-	public String manager;
 	private ShopService() {}
 	public static ShopService getInstance() {
 		if (instance ==null) {
@@ -13,6 +13,7 @@ class ShopService {
 		return instance;
 	}
 
+}
 public class C05Prac {
 
 	public static void main(String[] args) {
@@ -37,4 +38,5 @@ public class C05Prac {
 	}
 
 }
-}
+
+

@@ -8,15 +8,23 @@ class TV{
 	   private int size;
 	   public TV(int size) { this.size = size; }
 	   protected int getSize() { return size; }
-	 
+	   
 	}
 
+class ColorTV extends TV{
 
+	
+	
+	
+	
+}
 public class C01Prac {
 
 		public static void main(String[] args) {
 			   ColorTV myTV = new ColorTV(32, 1024);
 			   myTV.printProperty(); // 32인치 1024컬러 가 나오면 해결!
+			   
+			   myTV.getSize();
 			   
 			}
 }
